@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.2">
   <diagram name="Page-1" id="SI2e9TZeGbGfPT4QZf0Q">
-    <mxGraphModel dx="1303" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1489" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -186,15 +186,15 @@
         <mxCell id="sO6nQIoWA1OG3Iiomec1-60" value="Net Array" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="480" y="60" width="108" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sO6nQIoWA1OG3Iiomec1-62" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="sO6nQIoWA1OG3Iiomec1-62" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="645" y="150" as="sourcePoint" />
             <mxPoint x="715" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sO6nQIoWA1OG3Iiomec1-63" value="input" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sO6nQIoWA1OG3Iiomec1-62">
+        <mxCell id="sO6nQIoWA1OG3Iiomec1-63" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;input&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sO6nQIoWA1OG3Iiomec1-62">
           <mxGeometry x="-0.0286" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
