@@ -226,7 +226,7 @@
         <mxCell id="d7MtoSYqQTFoT_M9jXZG-13" value="Accumulate num of calculated gates" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="264" y="674" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="d7MtoSYqQTFoT_M9jXZG-15" value="Is num of calculated gates equal to total num of gates" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
+        <mxCell id="d7MtoSYqQTFoT_M9jXZG-15" value="Is num of calculated gates equal to total num of gates?" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="254" y="754" width="210" height="120" as="geometry" />
         </mxCell>
         <mxCell id="d7MtoSYqQTFoT_M9jXZG-16" value="end" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
