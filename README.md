@@ -1,11 +1,5 @@
 # Combinational Logic Simulator
-## Data Structure
-
-![Data Structure](./images/data_structure.png)
-
-## Simulation Algorithm
-
-![Simulation Algorithm](./images/simulation_algorithm.png)
+This is a c-based simulator that automatically calculates the outputs of the combational logic circuit with a given circuit configuration files and input signals.
 
 ## Run & Results
 ### Run
@@ -16,8 +10,7 @@ git clone -b proj1 https://github.com/1102131860/ECE6140.git
 
 (2) Build the program
 ```
-cd src
-make
+cd src && make
 ```
 
 (3) Run the testbench
@@ -47,3 +40,11 @@ bash run.sh
 |    s298_2          | 10101010101010101        | 00000010101000111000       |
 |    s344f_2         | 101010101010101011111111 | 10101010101010101010101101 |
 |    s349f_2         | 101010101010101011111111 | 10101010101010101101010101 |
+
+## Data Structure
+
+![Data Structure](./images/data_structure.png)
+
+## Simulation Algorithm
+
+![Simulation Algorithm](./images/simulation_algorithm.png)
