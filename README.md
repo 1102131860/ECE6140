@@ -1,5 +1,5 @@
 # Combinational Logic Simulator
-This is a c-based simulator that automatically calculates the outputs of the combational logic circuit with a given circuit configuration files and input signals.
+This is a c-based simulator that automatically calculates the outputs of the combational logic circuit with a given circuit configuration file and input signals.
 
 ## Run & Results
 ### Run
