@@ -10,7 +10,7 @@ git clone -b proj1 https://github.com/1102131860/ECE6140.git
 
 (2) Build the program
 ```
-cd src && make
+cd ./ECE6140/src && make
 ```
 
 (3) Run the testbench
