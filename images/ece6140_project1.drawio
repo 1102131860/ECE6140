@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.2" pages="2">
   <diagram name="Data_Structure" id="SI2e9TZeGbGfPT4QZf0Q">
     <mxGraphModel dx="1489" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -193,6 +193,38 @@
           <mxGeometry x="-0.0286" y="2" relative="1" as="geometry">
             <mxPoint y="-14" as="offset" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Q0B3nWrCzbfnnBhNJs4t" name="Simulation_Algorithm">
+    <mxGraphModel dx="1042" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d7MtoSYqQTFoT_M9jXZG-3" value="Does the output net of this gate have a value?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="274" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="d7MtoSYqQTFoT_M9jXZG-5" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="150" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d7MtoSYqQTFoT_M9jXZG-9" value="select next gate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="444" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d7MtoSYqQTFoT_M9jXZG-10" value="Do all the input nets of this gate have value?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="274" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="d7MtoSYqQTFoT_M9jXZG-12" value="Calculate the output net of this gate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="444" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d7MtoSYqQTFoT_M9jXZG-13" value="num of calculated gates accumulates" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="564" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d7MtoSYqQTFoT_M9jXZG-15" value="Is num of calculated gates equal to total num of gates" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="680" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="d7MtoSYqQTFoT_M9jXZG-16" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="830" width="80" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
