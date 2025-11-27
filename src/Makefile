@@ -27,7 +27,7 @@ CFLAGS += -g
 CXXFLAGS += -g
 endif
 
-.PHONY: all validate submit clean
+.PHONY: all clean
 
 all: $(PROG)
 
