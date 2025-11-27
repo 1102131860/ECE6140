@@ -168,8 +168,8 @@ int sim1_initialize(const char* signal, uint8_t en_rand) {
         if (input_len != num_inputs) return 1;
         for (size_t i = 0; i < input_len; i++) {
             char ch = signal[i];
-            if (ch != '0' && ch != '1') return 1;
-            nets[i].value = ch - '0';
+            if (ch != '0' && ch != '1' && ch != 'X') return 1;
+            nets[i].value = (ch == 'X') ? (rand() & 1) : (ch - '0');
             nets[i].has_value = 1;
         }
     }
