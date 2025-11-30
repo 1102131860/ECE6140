@@ -25,15 +25,21 @@ bash run.sh
 ```
 e.g.
 ```
-./sim1 -f ../files/s27.txt -m 0 -i 1110101
+./sim2 -f ../files/s27.txt -m 0 -i 1110101
 ```
+If some bits are don't care, then you can use `X` to replace.
+e.g.
+```
+./sim2 -f ../files/s27.txt -m 0 -i X0X10X0
+```
+
 2. Randomly generate input signals
 ```
 ./sim2 -f <file_path> -m 1 -n <testcases>
 ```
 e.g. Randomly generate 10 input vectors
 ```
-./sim1 -f ../files/s27.txt -m 1 -n 10
+./sim2 -f ../files/s27.txt -m 1 -n 10
 ```
 
 ## Result (Coverage vs n testcases)
