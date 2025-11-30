@@ -43,7 +43,13 @@ $(PROG): $(OFILES)
 
 clean:
 	rm -f $(PROG) $(OFILES) $(DFILES)
+	rm -f ../files/output*.txt
 
 -include $(DFILES)
 
 # valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes
+
+run:
+	make clean
+	make all FAST=1
+	./run.sh
